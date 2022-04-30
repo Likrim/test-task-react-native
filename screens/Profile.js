@@ -6,7 +6,7 @@ const Profile = ({route, navigation}) => {
 
     return(
         <View style={styles.mainBlock}>
-            <Text style={styles.mainText}>Profile {'\n'}Hello, UserName!</Text>
+            <Text style={styles.mainText}>Profile {'\n'}Hello, {route.params.name}!</Text>
             <View style={{width: '100%', borderTopWidth: 3, alignItems: 'center'}}>
                 <Text style={styles.titleText}>You can change your name here!</Text>
             </View>
